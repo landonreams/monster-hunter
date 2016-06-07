@@ -1,0 +1,6 @@
+{
+    "parent":"monsterhunter:item/standard_item",
+    "textures": {
+        "layer0": "monsterhunter:items/monster_bone"
+    }
+}

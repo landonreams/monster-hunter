@@ -1,0 +1,135 @@
+item.monsterhunter:material_chest.name=Storage Box
+
+//Monster Materials
+item.monsterhunter:monster_scale_32512.name=Gray Scale
+item.monsterhunter:monster_scale_32513.name=White Scale
+item.monsterhunter:monster_scale_32514.name=Purple Scale
+item.monsterhunter:monster_scale_32515.name=Yellow Scale
+item.monsterhunter:monster_scale_32516.name=Pink Scale
+item.monsterhunter:monster_scale_32517.name=Green Scale
+item.monsterhunter:monster_scale_32518.name=Blue Scale
+item.monsterhunter:monster_scale_32519.name=Red Scale
+item.monsterhunter:monster_scale_32520.name=Orange Scale
+item.monsterhunter:monster_scale_32521.name=Magenta Scale
+
+item.monsterhunter:monster_bone_32512.name=Gray Bone
+item.monsterhunter:monster_bone_32513.name=White Bone
+item.monsterhunter:monster_bone_32514.name=Purple Bone
+item.monsterhunter:monster_bone_32515.name=Yellow Bone
+item.monsterhunter:monster_bone_32516.name=Pink Bone
+item.monsterhunter:monster_bone_32517.name=Green Bone
+item.monsterhunter:monster_bone_32518.name=Blue Bone
+item.monsterhunter:monster_bone_32519.name=Red Bone
+item.monsterhunter:monster_bone_32520.name=Orange Bone
+item.monsterhunter:monster_bone_32521.name=Magenta Bone
+
+item.monsterhunter:monster_part_32512.name=Gray Part
+item.monsterhunter:monster_part_32513.name=White Part
+item.monsterhunter:monster_part_32514.name=Purple Part
+item.monsterhunter:monster_part_32515.name=Yellow Part
+item.monsterhunter:monster_part_32516.name=Pink Part
+item.monsterhunter:monster_part_32517.name=Green Part
+item.monsterhunter:monster_part_32518.name=Blue Part
+item.monsterhunter:monster_part_32519.name=Red Part
+item.monsterhunter:monster_part_32520.name=Orange Part
+item.monsterhunter:monster_part_32521.name=Magenta Part
+
+item.monsterhunter:monster_sharp_32512.name=Gray Sharp
+item.monsterhunter:monster_sharp_32513.name=White Sharp
+item.monsterhunter:monster_sharp_32514.name=Purple Sharp
+item.monsterhunter:monster_sharp_32515.name=Yellow Sharp
+item.monsterhunter:monster_sharp_32516.name=Pink Sharp
+item.monsterhunter:monster_sharp_32517.name=Green Sharp
+item.monsterhunter:monster_sharp_32518.name=Blue Sharp
+item.monsterhunter:monster_sharp_32519.name=Red Sharp
+item.monsterhunter:monster_sharp_32520.name=Orange Sharp
+item.monsterhunter:monster_sharp_32521.name=Magenta Sharp
+
+item.monsterhunter:monster_web_32512.name=Gray Web
+item.monsterhunter:monster_web_32513.name=White Web
+item.monsterhunter:monster_web_32514.name=Purple Web
+item.monsterhunter:monster_web_32515.name=Yellow Web
+item.monsterhunter:monster_web_32516.name=Pink Web
+item.monsterhunter:monster_web_32517.name=Green Web
+item.monsterhunter:monster_web_32518.name=Blue Web
+item.monsterhunter:monster_web_32519.name=Red Web
+item.monsterhunter:monster_web_32520.name=Orange Web
+item.monsterhunter:monster_web_32521.name=Magenta Web
+
+item.monsterhunter:monster_mantle_32512.name=Gray Mantle
+item.monsterhunter:monster_mantle_32513.name=White Mantle
+item.monsterhunter:monster_mantle_32514.name=Purple Mantle
+item.monsterhunter:monster_mantle_32515.name=Yellow Mantle
+item.monsterhunter:monster_mantle_32516.name=Pink Mantle
+item.monsterhunter:monster_mantle_32517.name=Green Mantle
+item.monsterhunter:monster_mantle_32518.name=Blue Mantle
+item.monsterhunter:monster_mantle_32519.name=Red Mantle
+item.monsterhunter:monster_mantle_32520.name=Orange Mantle
+item.monsterhunter:monster_mantle_32521.name=Magenta Mantle
+
+item.monsterhunter:monster_gem_32512.name=Gray Gem
+item.monsterhunter:monster_gem_32513.name=White Gem
+item.monsterhunter:monster_gem_32514.name=Purple Gem
+item.monsterhunter:monster_gem_32515.name=Yellow Gem
+item.monsterhunter:monster_gem_32516.name=Pink Gem
+item.monsterhunter:monster_gem_32517.name=Green Gem
+item.monsterhunter:monster_gem_32518.name=Blue Gem
+item.monsterhunter:monster_gem_32519.name=Red Gem
+item.monsterhunter:monster_gem_32520.name=Orange Gem
+item.monsterhunter:monster_gem_32521.name=Magenta Gem
+
+item.monsterhunter:monster_carapace_32512.name=Gray Carapace
+item.monsterhunter:monster_carapace_32513.name=White Carapace
+item.monsterhunter:monster_carapace_32514.name=Purple Carapace
+item.monsterhunter:monster_carapace_32515.name=Yellow Carapace
+item.monsterhunter:monster_carapace_32516.name=Pink Carapace
+item.monsterhunter:monster_carapace_32517.name=Green Carapace
+item.monsterhunter:monster_carapace_32518.name=Blue Carapace
+item.monsterhunter:monster_carapace_32519.name=Red Carapace
+item.monsterhunter:monster_carapace_32520.name=Orange Carapace
+item.monsterhunter:monster_carapace_32521.name=Magenta Carapace
+
+item.monsterhunter:monster_sac_32512.name=Gray Sac
+item.monsterhunter:monster_sac_32513.name=White Sac
+item.monsterhunter:monster_sac_32514.name=Purple Sac
+item.monsterhunter:monster_sac_32515.name=Yellow Sac
+item.monsterhunter:monster_sac_32516.name=Pink Sac
+item.monsterhunter:monster_sac_32517.name=Green Sac
+item.monsterhunter:monster_sac_32518.name=Blue Sac
+item.monsterhunter:monster_sac_32519.name=Red Sac
+item.monsterhunter:monster_sac_32520.name=Orange Sac
+item.monsterhunter:monster_sac_32521.name=Magenta Sac
+
+item.monsterhunter:monster_pelt_32512.name=Gray Pelt
+item.monsterhunter:monster_pelt_32513.name=White Pelt
+item.monsterhunter:monster_pelt_32514.name=Purple Pelt
+item.monsterhunter:monster_pelt_32515.name=Yellow Pelt
+item.monsterhunter:monster_pelt_32516.name=Pink Pelt
+item.monsterhunter:monster_pelt_32517.name=Green Pelt
+item.monsterhunter:monster_pelt_32518.name=Blue Pelt
+item.monsterhunter:monster_pelt_32519.name=Red Pelt
+item.monsterhunter:monster_pelt_32520.name=Orange Pelt
+item.monsterhunter:monster_pelt_32521.name=Magenta Pelt
+
+item.monsterhunter:monster_ore_32512.name=Gray Ore
+item.monsterhunter:monster_ore_32513.name=White Ore
+item.monsterhunter:monster_ore_32514.name=Purple Ore
+item.monsterhunter:monster_ore_32515.name=Yellow Ore
+item.monsterhunter:monster_ore_32516.name=Pink Ore
+item.monsterhunter:monster_ore_32517.name=Green Ore
+item.monsterhunter:monster_ore_32518.name=Blue Ore
+item.monsterhunter:monster_ore_32519.name=Red Ore
+item.monsterhunter:monster_ore_32520.name=Orange Ore
+item.monsterhunter:monster_ore_32521.name=Magenta Ore
+
+item.monsterhunter:monster_oil_32512.name=Gray Oil
+item.monsterhunter:monster_oil_32513.name=White Oil
+item.monsterhunter:monster_oil_32514.name=Purple Oil
+item.monsterhunter:monster_oil_32515.name=Yellow Oil
+item.monsterhunter:monster_oil_32516.name=Pink Oil
+item.monsterhunter:monster_oil_32517.name=Green Oil
+item.monsterhunter:monster_oil_32518.name=Blue Oil
+item.monsterhunter:monster_oil_32519.name=Red Oil
+item.monsterhunter:monster_oil_32520.name=Orange Oil
+item.monsterhunter:monster_oil_32521.name=Magenta Oil
+
