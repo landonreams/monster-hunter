@@ -1,13 +1,9 @@
 package com.monsterhunter.entity;
 
-import com.monsterhunter.item.material.ItemMonsterMaterial;
-import com.monsterhunter.item.material.ItemMonsterMaterialType;
-import com.monsterhunter.util.ColorList;
-
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;
 
-public class EntityGreatJaggi extends BigMonster {
+public class EntityGreatJaggi extends EntityBigMonster {
 	public final static int ID = 0;
 
 	public EntityGreatJaggi(World worldIn) {

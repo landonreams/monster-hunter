@@ -2,6 +2,8 @@ package com.monsterhunter.item.weapon;
 
 import org.apache.logging.log4j.Level;
 
+import com.monsterhunter.MonsterHunter;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
@@ -15,11 +17,11 @@ import net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class CarvingKnife extends WeaponBlademaster {
+public class ItemCarvingKnife extends ItemWeaponBlademaster {
 
 
 	private static final String unlocalizedName = "carving_knife";
-	public CarvingKnife() {
+	public ItemCarvingKnife() {
 		super();
 
 		this.setRegistryName(unlocalizedName);
@@ -29,14 +31,14 @@ public class CarvingKnife extends WeaponBlademaster {
 
 	@Override
 	public boolean onEntitySwing(EntityLivingBase entityLiving, ItemStack stack) {
-		if(entityLiving instanceof EntityPlayer) {
-			EntityPlayer playerIn = (EntityPlayer)entityLiving;
-			World worldIn = playerIn.getEntityWorld();
-			//if(Minecraft.getMinecraft().gameSettings.keyBindAttack.)
-				FMLLog.log(Level.INFO, "[MonsterHunter] Detected a swing!");
-			return false;
-		}
-		else
+//		if(entityLiving instanceof EntityPlayer) {
+//			EntityPlayer playerIn = (EntityPlayer)entityLiving;
+//			World worldIn = playerIn.getEntityWorld();
+//			//if(Minecraft.getMinecraft().gameSettings.keyBindAttack.)
+//			//	FMLLog.log(Level.INFO, "[MonsterHunter] Detected a swing!");
+//			return false;
+//		}
+//		else
 			return false;
 	}
 }

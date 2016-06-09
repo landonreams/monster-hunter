@@ -1,5 +1,5 @@
 package com.monsterhunter.item.weapon;
 
-public class WeaponGreatsword  {
+public class ItemWeaponGreatsword  {
 
 }

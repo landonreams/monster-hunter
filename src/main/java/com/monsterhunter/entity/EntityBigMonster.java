@@ -7,7 +7,7 @@ import com.monsterhunter.item.material.RecolorableItem;
 import net.minecraft.entity.Entity;
 import net.minecraft.world.World;
 
-public abstract class BigMonster extends Entity  {
+public abstract class EntityBigMonster extends Entity  {
 	/**
 	 * Monster ID ranging from 0..127 inclusive.
 	 */
@@ -15,7 +15,7 @@ public abstract class BigMonster extends Entity  {
 
 	public List<RecolorableItem> lootLow, lootHigh, lootG;
 
-	public BigMonster(World worldIn, int ID) {
+	public EntityBigMonster(World worldIn, int ID) {
 		super(worldIn);
 		this.monsterID = ID;
 	}

@@ -23,8 +23,6 @@ public final class ModBlocks {
 	}
 
 	public static final void createBlocks() {
-		FMLLog.log(Level.INFO, "[MonsterHunter] Registering block: materialChest");
-
 		GameRegistry.register(blockMaterialChest = new BlockMaterialChest());
 		GameRegistry.register(itemMaterialChest = new ItemMaterialChest(blockMaterialChest));
 

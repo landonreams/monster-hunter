@@ -7,10 +7,14 @@ import org.apache.logging.log4j.Level;
 import com.monsterhunter.MonsterHunter;
 import com.monsterhunter.init.ModBlocks;
 import com.monsterhunter.init.ModConfig;
+import com.monsterhunter.init.ModEntities;
 import com.monsterhunter.init.ModGuiHandler;
 import com.monsterhunter.init.ModItems;
+import com.monsterhunter.init.ModPotions;
 import com.monsterhunter.init.ModTileEntities;
 
+import net.minecraft.entity.Entity;
+import net.minecraft.item.EnumDyeColor;
 import net.minecraftforge.fml.common.FMLLog;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -29,6 +33,9 @@ public class CommonProxy {
     	ModItems.createItems();
     	ModBlocks.createBlocks();
     	ModTileEntities.createTileEntities();
+    	ModEntities.registerEntities();
+    	ModPotions.registerPotions();
+
     }
 
     public void init(FMLInitializationEvent e) {
@@ -38,4 +45,6 @@ public class CommonProxy {
     public void postInit(FMLPostInitializationEvent e) {
 
     }
+
+    public void generatePaintParticle(Entity theEntity, EnumDyeColor color) { }
 }

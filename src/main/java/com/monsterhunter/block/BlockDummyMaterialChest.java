@@ -80,7 +80,7 @@ public class BlockDummyMaterialChest extends BlockContainer {
 
 		TileEntityDummyMaterialChest te = (TileEntityDummyMaterialChest) world.getTileEntity(pos);
 
-		FMLLog.log(Level.INFO, "[MonsterHunter] Primary Pos: %s", te.getPrimaryPos().toString());
+		FMLLog.log(Level.INFO, "[%s] Primary Pos: %s", MonsterHunter.MODNAME, te.getPrimaryPos().toString());
 
 		Block bl = world.getBlockState(te.getPrimaryPos()).getBlock();
 		if(bl instanceof BlockMaterialChest) {

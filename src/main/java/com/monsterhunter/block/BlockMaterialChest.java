@@ -41,7 +41,7 @@ public class BlockMaterialChest extends BlockContainer {
 
 
 		this.setUnlocalizedName(unlocalizedName);
-		
+
 		this.setRegistryName(MonsterHunter.MODID, unlocalizedName);
 		this.setHardness(2.0F);
 		this.setResistance(10.0F);
@@ -91,7 +91,7 @@ public class BlockMaterialChest extends BlockContainer {
 	@Override
 	public boolean onBlockActivated(World world, BlockPos pos, IBlockState state, EntityPlayer player, EnumHand hand,
 			ItemStack heldItem, EnumFacing side, float hitX, float hitY, float hitZ) {
-		FMLLog.log(Level.INFO, "[MonsterHunter] Chest right click detected!");
+		FMLLog.log(Level.INFO, "[%s] Chest right click detected!", MonsterHunter.MODNAME);
 		if (!world.isRemote) {
 			player.openGui(MonsterHunter.instance, ModGuiHandler.MATERIAL_CHEST_GUI, world, pos.getX(), pos.getY(),
 					pos.getZ());

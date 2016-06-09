@@ -5,7 +5,7 @@ import net.minecraft.item.EnumAction;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public abstract class WeaponBase extends Item {
+public abstract class ItemWeaponBase extends Item {
 	/**
 	 * Sheath time of weapon in ticks.
 	 */
@@ -22,7 +22,7 @@ public abstract class WeaponBase extends Item {
 	public boolean isSheathed;
 
 
-	public WeaponBase() {
+	public ItemWeaponBase() {
 		this.sheathTicks = 20;
 		this.unsheathTicks = 20;
 

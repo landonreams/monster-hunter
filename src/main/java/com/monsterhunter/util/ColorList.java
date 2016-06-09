@@ -1,14 +1,13 @@
 package com.monsterhunter.util;
 
 import java.io.File;
-import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
+import java.util.Map;
 
 import org.apache.logging.log4j.Level;
 
-import com.monsterhunter.MonsterHunter;
-
+import net.minecraft.item.EnumDyeColor;
 import net.minecraftforge.fml.common.FMLLog;
 
 /**
@@ -18,30 +17,15 @@ import net.minecraftforge.fml.common.FMLLog;
  *
  */
 public class ColorList implements Iterable<Color> {
-	private List<Color> colors;
+	private Map<EnumDyeColor, Color> colors;
 	private File configPath;
-	public static final String PATH = "colors.json";
 
 	public ColorList() {
-		colors = new ArrayList<>();
+		colors = new HashMap<>();
 	}
 
-	public Color get(int index) {
-		try {
-			//return new Color(0, 0xFF0000, "Test Color Please Ignore");
-			return colors.get(index);
-		} catch (Exception e) {
-			return null;
-		}
-	}
-
-	public Color byName(String name) {
-		for(Color col : colors) {
-			if(name.equalsIgnoreCase(col.getName()))
-				return col;
-		}
-		FMLLog.log(Level.ERROR, "[ColorList] Could not find color: %s. Assuming color at index 0.", name);
-		return colors.get(0);
+	public Color get(EnumDyeColor enumColor) {
+		return colors.get(enumColor);
 	}
 
 	@Override
@@ -59,7 +43,7 @@ public class ColorList implements Iterable<Color> {
 			public Color next() {
 				try {
 					index++;
-					return colors.get(index - 1);
+					return colors.get(EnumDyeColor.byMetadata(index - 1));
 				} catch (Exception e) {
 					throw e;
 				}
@@ -69,7 +53,7 @@ public class ColorList implements Iterable<Color> {
 	}
 
 	public ColorList add(Color color) {
-		colors.add(color);
+		colors.put(color.baseColor, color);
 		return this;
 	}
 }

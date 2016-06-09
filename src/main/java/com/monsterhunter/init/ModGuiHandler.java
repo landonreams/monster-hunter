@@ -30,7 +30,7 @@ public class ModGuiHandler implements IGuiHandler {
 			if(te instanceof TileEntityDummyMaterialChest) {
 				pos = ((TileEntityDummyMaterialChest)te).getPrimaryPos();
 			} else if (!(te instanceof TileEntityMaterialChest)){
-				FMLLog.log(Level.ERROR, "[MonsterHunter] ERROR: Chest at pos %d,%d,%d does not have a proper tile entity!", x, y, z);
+				FMLLog.log(Level.ERROR, "[%s] ERROR: Chest at pos %d,%d,%d does not have a proper tile entity!", MonsterHunter.MODNAME, x, y, z);
 				return null;
 			}
 			primary = (TileEntityMaterialChest) world.getTileEntity(pos);
@@ -49,7 +49,7 @@ public class ModGuiHandler implements IGuiHandler {
 			if(te instanceof TileEntityDummyMaterialChest) {
 				pos = ((TileEntityDummyMaterialChest)te).getPrimaryPos();
 			} else if (!(te instanceof TileEntityMaterialChest)){
-				FMLLog.log(Level.ERROR, "[MonsterHunter] ERROR: Chest at pos %d,%d,%d does not have a proper tile entity!", x, y, z);
+				FMLLog.log(Level.ERROR, "[%s] ERROR: Chest at pos %d,%d,%d does not have a proper tile entity!", MonsterHunter.MODNAME, x, y, z);
 				return null;
 			}
 			primary = (TileEntityMaterialChest) world.getTileEntity(pos);

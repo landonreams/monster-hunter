@@ -1,4 +1,20 @@
 item.monsterhunter:material_chest.name=Storage Box
+item.monsterhunter:paintball_white.name=White Paintball
+item.monsterhunter:paintball_orange.name=Orange Paintball
+item.monsterhunter:paintball_magenta.name=Magenta Paintball
+item.monsterhunter:paintball_light_blue.name=Light Blue Paintball
+item.monsterhunter:paintball_yellow.name=Yellow Paintball
+item.monsterhunter:paintball_lime.name=Lime Paintball
+item.monsterhunter:paintball_pink.name=Pink Paintball
+item.monsterhunter:paintball_gray.name=Gray Paintball
+item.monsterhunter:paintball_silver.name=Silver Paintball
+item.monsterhunter:paintball_cyan.name=Cyan Paintball
+item.monsterhunter:paintball_purple.name=Purple Paintball
+item.monsterhunter:paintball_blue.name=Blue Paintball
+item.monsterhunter:paintball_brown.name=Brown Paintball
+item.monsterhunter:paintball_green.name=Green Paintball
+item.monsterhunter:paintball_red.name=Red Paintball
+item.monsterhunter:paintball_black.name=Black Paintball
 
 //Monster Materials
 item.monsterhunter:monster_scale_32512.name=Gray Scale

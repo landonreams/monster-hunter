@@ -5,7 +5,7 @@ import java.io.File;
 import org.apache.logging.log4j.Level;
 
 import com.monsterhunter.init.ModItems;
-import com.monsterhunter.item.material.ItemMonsterMaterialType;
+import com.monsterhunter.item.material.ItemMonsterMaterial.ItemMonsterMaterialType;
 import com.monsterhunter.proxy.CommonProxy;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -31,7 +31,7 @@ public class MonsterHunter {
 
 		@Override
 		public Item getTabIconItem() {
-			return ModItems.monsterMaterials.get(ItemMonsterMaterialType.byName("monster_part").value);
+			return ModItems.itemMaterials.get(ItemMonsterMaterialType.PART);
 		}
 		@Override
 		public int getIconItemDamage() {

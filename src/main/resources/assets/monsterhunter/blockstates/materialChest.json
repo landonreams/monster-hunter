@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "facing=north": { "model": "monsterhunter:materialChest", "y": 180 },
-        "facing=east": { "model": "monsterhunter:materialChest", "y": 270 },
-        "facing=south": { "model": "monsterhunter:materialChest" },
-        "facing=west": { "model": "monsterhunter:materialChest", "y": 90 }
-    }
-
-}
